@@ -1,0 +1,24 @@
+.homepage-hero {
+ background-image: url('../images/image0-copy.png');
+ background-position: center center;
+ background-size: cover;
+ margin: 0;
+ padding: 0;
+}
+.homepage-hero-overlay {
+ background-image: linear-gradient(100deg, #000000 0%, #F2295B00 64%);
+ padding: 100px 0px;
+ margin: 0;
+}
+.homepage-hero-content {
+ z-index: 99;
+}
+.divider-primary {
+ border-top-color: $primary;
+ border-top-width: 4px;
+ border-top-style: solid;
+ padding: 15px 0px;
+ display: flex;
+ width: 20%;
+ margin: 0 auto;
+}
