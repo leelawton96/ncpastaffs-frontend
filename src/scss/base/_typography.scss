@@ -12,7 +12,7 @@ html {
  font: 100%/1.5 Arial, sans-serif;
 }
 h1 { 
- font-size: 2em;  /* 2*16 = 32 */    
+ font-size: 2.4em;  /* 2*16 = 32 */    
 }
 h2 { 
  font-size: 1.5em;     /* 1.5*16 = 24 */  
@@ -36,4 +36,7 @@ p {
 }
 .font-bold {
  font-weight: 600;
+}
+.white {
+ color: #ffffff;
 }

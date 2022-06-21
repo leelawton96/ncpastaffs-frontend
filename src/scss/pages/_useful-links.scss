@@ -1,0 +1,22 @@
+@import '../abstracts/variables';
+
+.content-header {
+ background-position: center center;
+ background-size: cover;
+ position: relative;
+ margin: auto;
+}
+.useful-links {
+ background-image: url(../images/image1.png);
+}
+.overlay {
+ background-color: rgba($color: #000000, $alpha: 0.7);
+ padding: 100px 0px;
+ margin: 0;
+}
+.content-header-title {
+ z-index: 99;
+ opacity: 1;
+ font-weight: 700;
+ margin-bottom: 0;
+}
