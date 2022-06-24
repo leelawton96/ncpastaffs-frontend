@@ -10,17 +10,17 @@ const Footer = () => {
   <div className="container-fluid footer-container flex-column text-center d-flex justify-content-center align-items-center my-auto">
    <div className="container d-flex flex-column justify-content-center align-items-center my-auto">
 
-   <ul className="w-100 footer-links d-flex flex-column flex-sm-row justify-content-evenly px-0 pb-4 pt-4 pt-sm-0">
-    <li className="footer-link py-2 py-sm-0">
+   <ul className="w-100 footer-links d-flex flex-column flex-sm-row justify-content-center px-0 pb-4 pt-4 pt-sm-0">
+    <li className="footer-link py-2 py-sm-0 mx-sm-2">
      <Link activeClassName="footer-active" to="/">Home</Link>
     </li>
-    <li className="footer-link py-2 py-sm-0">
+    <li className="footer-link py-2 py-sm-0 mx-sm-2">
      <Link activeClassName="footer-active" to="/useful-links">Useful Links</Link>
     </li>
-    <li className="footer-link py-2 py-sm-0">
+    <li className="footer-link py-2 py-sm-0 mx-sm-2">
      <Link activeClassName="footer-active" to="/calendar-results">Calendar & Results</Link>
     </li>
-    <li className="footer-link py-2 py-sm-0">
+    <li className="footer-link py-2 py-sm-0 mx-sm-2">
      <Link activeClassName="footer-active" to="/contact-us">Contact Us</Link>
     </li>
    </ul>
