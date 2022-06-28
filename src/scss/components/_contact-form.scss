@@ -1,0 +1,73 @@
+@import "../abstracts/variables";
+
+.formRow {
+ margin: 10px 0 20px 0;
+}
+
+.formInput {
+ width: 100%;
+ height: 52px;
+ border: 1px solid #010F15 !important;
+ box-sizing: border-box;
+ border-radius: 4px;
+}
+
+.formInput:focus {
+ width: 100%;
+ height: 52px;
+ border: 1px solid #010F15;
+ box-sizing: border-box;
+ border-radius: 4px;
+}
+
+.formInput::placeholder {
+ color: rgba(0, 0, 0, 0.3) !important; 
+}
+
+.formInput:focus::placeholder {
+ color: var(--light);
+ opacity: 1;
+}
+
+.errorMessage {
+ color: #f45532;
+ font-size: 14px;
+ margin: 0;
+ padding: 0;
+}
+
+#notifyToast {
+ color: #fff;
+ border-radius: 6px;
+ width: 200px;
+ margin-left: 75px;
+ background-image: var(--orange-gradient);
+}
+
+.submit-btn {
+  font-size: 14px;
+	font-weight: bold;
+  color: var(--white);
+  background-image: var(--orange-gradient);
+  padding: 12px 32px;
+  border-radius: 50px;
+  border: none;
+  transition: all .2s ease-in-out;
+}
+
+.submit-btn:hover {
+ transform: scale(1.1); 
+}
+
+.submit-btn:disabled:hover {
+ background-color: var(--dark);
+ color: var(--green) !important;
+ cursor: wait;
+}
+
+@media (max-width: 768px) {
+ .submit-message {
+   width: 125px;
+   margin-left: 200px;
+ }
+}

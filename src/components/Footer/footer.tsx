@@ -27,7 +27,7 @@ const Footer = () => {
 
      <p className="m-0 pt-1 white">Copyright © 2022 NCPA Staffs Branch </p>
 
-      <p class="white pt-1 m-0">Website Design by 
+      <p className="white pt-1 m-0">Website Design by 
         <a target="_blank" rel="noreferrer" href="https://www.leelawtondesign.co.uk">  Lee Lawton</a>  |  
         <a target="_blank" rel="noreferrer" href="https://www.leelawtondesign.co.uk">  Lee Lawton Design</a> 
       </p>

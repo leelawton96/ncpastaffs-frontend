@@ -14,24 +14,25 @@ const NavBar = () => {
     <StaticImage 
       src="../../images/N.C.P.A.jpg"
       className="logo"
+      alt="logo"
     />
-      <nav class="navbar navbar-expand-lg w-100">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg w-100">
+        <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul className="navbar-nav mt-2 mt-lg-0">
+          <li className="nav-item active">
             <Link activeClassName="active" className="nav-link" to="/">Home</Link>
           </li>
-          <li class="nav-item active">
+          <li className="nav-item active">
             <Link activeClassName="active" className="nav-link" to="/useful-links/">Useful Links</Link>
           </li>
-          <li class="nav-item active">
+          <li className="nav-item active">
             <Link activeClassName="active" className="nav-link" to="/calendar-results">Calendar & Results</Link>
           </li>
-          <li class="nav-item active">
+          <li className="nav-item active">
             <Link activeClassName="active" className="nav-link" to="/contact-us/">Contact Us</Link>
           </li>
         </ul>

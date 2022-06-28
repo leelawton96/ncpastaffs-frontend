@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import "../../scss/components/_useful-link-card.scss"
 
 
 

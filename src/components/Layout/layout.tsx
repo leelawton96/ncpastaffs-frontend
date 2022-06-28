@@ -11,7 +11,7 @@ import Footer from "../Footer/footer"
 
 const Layout = ({ children }) => {
   return (
-    <div class="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
+    <div className="flex min-h-screen flex-col justify-between bg-neutral-50 text-neutral-900">
       <div>
         <NavBar />
         {children}

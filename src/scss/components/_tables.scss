@@ -1,0 +1,27 @@
+@import '../abstracts/variables';
+
+table {
+ width: 100%;
+}
+
+th {
+ background-color: $secondary;
+ color: #ffffff;
+ text-align: left;
+}
+
+th, td {
+ padding: 20px 15px;
+}
+
+tr {
+ border-bottom: 1px solid #f6f6f6;
+}
+
+tr:nth-of-type(even) {
+ background-color: #fafafa;
+}
+
+tr:last-of-type {
+ border-bottom: 2px solid $secondary;
+}

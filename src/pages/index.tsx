@@ -41,7 +41,7 @@ const IndexPage = () => (
             src="../images/ncpa_4.png" 
             alt="Events" 
             objectFit="contain"
-            width="300"
+            width={300}
           />
           <h2 className="text-start mt-3">Events</h2>
           <p className="text-start">Forthcoming events, schedules, on-line entries and clinics </p>
@@ -56,7 +56,7 @@ const IndexPage = () => (
             src="../images/ncpa_3.png" 
             alt="Events" 
             objectFit="contain"
-            width="300"
+            width={300}
           />
           <h2 className="text-start mt-3">Links</h2>
           <p className="text-start">Forthcoming events, schedules, on-line entries and clinics </p>
@@ -71,7 +71,7 @@ const IndexPage = () => (
             src="../images/ncpa_2.png" 
             alt="Events" 
             objectFit="contain"
-            width="300"
+            width={300}
           />
           <h2 className="text-start mt-3">Contact Us</h2>
           <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
@@ -85,7 +85,7 @@ const IndexPage = () => (
             src="../images/ncpa_1.png" 
             alt="Events" 
             objectFit="contain"
-            width="300"
+            width={300}
           />
           <h2 className="text-start mt-3">Results</h2>
           <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
