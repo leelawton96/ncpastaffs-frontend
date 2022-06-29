@@ -52,7 +52,7 @@ const IndexPage = () => (
           />
           <h2 className="text-start mt-3">Events</h2>
           <p className="text-start">Forthcoming events, schedules, on-line entries and clinics </p>
-          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">View Events</Link>
         </div>
       </div>
 
@@ -67,7 +67,7 @@ const IndexPage = () => (
           />
           <h2 className="text-start mt-3">Links</h2>
           <p className="text-start">Societies, entry master and official photographer </p>
-          <Link className="btn btn-primary w-100 mt-auto" to="/useful-links/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/useful-links/">Useful Links</Link>
         </div>
       </div>
 
@@ -81,7 +81,7 @@ const IndexPage = () => (
             width={300}
           />
           <h2 className="text-start mt-3">Contact Us</h2>
-          <Link className="btn btn-primary w-100 mt-auto" to="/contact-us/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/contact-us/">Contact Us</Link>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ const IndexPage = () => (
             width={300}
           />
           <h2 className="text-start mt-3">Results</h2>
-          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">View Results</Link>
         </div>
       </div>
 

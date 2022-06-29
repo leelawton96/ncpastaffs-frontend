@@ -16,7 +16,7 @@ const UsefulLinks = () => (
 
     <Seo 
       url="https://www.ncpa-staffs.co.uk"
-      title="Contact Us | NCPA Staffs"
+      title="Calendar & Results | NCPA Staffs"
       description="NCPA Staffs are a small committee formed in 1981 dedicated to running at least 2 shows a year, the main one being the Staffordshire Country Festival held end June / early July."
     />
   

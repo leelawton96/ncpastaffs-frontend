@@ -15,6 +15,7 @@ const NavBar = () => {
       src="../../images/ncpa-logo.webp"
       className="logo"
       alt="logo"
+      width={200}
     />
       <nav className="navbar navbar-expand-lg w-100">
         <div className="container-fluid">
