@@ -14,7 +14,7 @@ const IndexPage = () => (
       <div className="col-12 col-lg-5">
         <h1 className="font-bold pb-3"> Northern Counties Ponies Association - Staffordshire Branch</h1>
         <p className="pb-3">We are a small committee dedicated to running at least 2 shows a year, the main one being the Staffordshire Country Festival held end June/early July.</p>
-        <Link className="btn btn-primary" to="/">Click Here to View Events</Link>
+        <Link className="btn btn-primary" to="/calendar-results/">Click Here to View Events</Link>
       </div>
       <div className="col-12 col-lg-7">
       </div>
@@ -38,14 +38,14 @@ const IndexPage = () => (
         <div className="px-3 py-4 link d-flex flex-column">
           <StaticImage 
             className="link-image"
-            src="../images/ncpa_4.png" 
+            src="../images/ncpa_4.webp" 
             alt="Events" 
             objectFit="contain"
             width={300}
           />
           <h2 className="text-start mt-3">Events</h2>
           <p className="text-start">Forthcoming events, schedules, on-line entries and clinics </p>
-          <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">Click Here</Link>
         </div>
       </div>
 
@@ -53,14 +53,14 @@ const IndexPage = () => (
         <div className="px-3 py-4 link d-flex flex-column">
           <StaticImage 
             className="link-image"
-            src="../images/ncpa_3.png" 
+            src="../images/ncpa_3.webp" 
             alt="Events" 
             objectFit="contain"
             width={300}
           />
           <h2 className="text-start mt-3">Links</h2>
-          <p className="text-start">Forthcoming events, schedules, on-line entries and clinics </p>
-          <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
+          <p className="text-start">Societies, entry master and official photographer </p>
+          <Link className="btn btn-primary w-100 mt-auto" to="/useful-links/">Click Here</Link>
         </div>
       </div>
 
@@ -68,13 +68,13 @@ const IndexPage = () => (
         <div className="px-3 py-4 link d-flex flex-column">
           <StaticImage 
             className="link-image"
-            src="../images/ncpa_2.png" 
+            src="../images/ncpa_2.webp" 
             alt="Events" 
             objectFit="contain"
             width={300}
           />
           <h2 className="text-start mt-3">Contact Us</h2>
-          <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/contact-us/">Click Here</Link>
         </div>
       </div>
 
@@ -82,13 +82,13 @@ const IndexPage = () => (
         <div className="px-3 py-4 link d-flex flex-column">
           <StaticImage 
             className="link-image"
-            src="../images/ncpa_1.png" 
+            src="../images/ncpa_1.webp" 
             alt="Events" 
             objectFit="contain"
             width={300}
           />
           <h2 className="text-start mt-3">Results</h2>
-          <Link className="btn btn-primary w-100 mt-auto" to="/">Click Here</Link>
+          <Link className="btn btn-primary w-100 mt-auto" to="/calendar-results/">Click Here</Link>
         </div>
       </div>
 

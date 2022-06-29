@@ -12,7 +12,7 @@ const NavBar = () => {
   <div className="container navbar">
 
     <StaticImage 
-      src="../../images/N.C.P.A.jpg"
+      src="../../images/ncpa-logo.webp"
       className="logo"
       alt="logo"
     />

@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard";
 import Directions from "../images/directions_catton_park.pdf";
 import StaffsFestival from "../images/Staffs-Festival-2022.pdf";
+import PreEntries from "../images/customer_class_report.pdf";
 
 
 
@@ -42,10 +43,13 @@ const UsefulLinks = () => (
         </tr>
         <tr>
           <td>Summer Show</td>
-          <td><a href="http://entrymaster.net/index.php?id=1&alias=ncpa-staffs">Click for On-Line Entry</a></td>
+          <td>
+            <a href="http://entrymaster.net/index.php?id=1&alias=ncpa-staffs">Click for On-Line Entry</a>            
+            <br/><br/>
+            <a href={PreEntries} target="_blank">View Pre-Entries</a></td>
           <td>02-Jul-22 to 03-Jul-22</td>
           <td>Catton Park</td>
-          <td><a href={StaffsFestival} target="_blank">Download Schedule & Results</a></td>
+          <td> <a href={StaffsFestival} target="_blank">Download Schedule & Results</a> </td>
         </tr>
       </table>
 
