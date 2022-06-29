@@ -3,8 +3,8 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard";
-import Directions from "../../public/static/directions_catton_park.pdf";
-import StaffsFestival from "../../public/static/Staffs-Festival-2022.pdf";
+import Directions from "../images/directions_catton_park.pdf";
+import StaffsFestival from "../images/Staffs-Festival-2022.pdf";
 
 
 
