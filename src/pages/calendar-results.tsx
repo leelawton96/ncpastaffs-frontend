@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import Layout from "../components/Layout/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard";
+import Seo from "../components/SEO/seo";
 import Directions from "../images/directions_catton_park.pdf";
 import StaffsFestival from "../images/Staffs-Festival-2022.pdf";
 import PreEntries from "../images/customer_class_report.pdf";
@@ -12,6 +13,12 @@ import PreEntries from "../images/customer_class_report.pdf";
 const UsefulLinks = () => (
  
  <Layout>
+
+    <Seo 
+      url="https://www.ncpa-staffs.co.uk"
+      title="Contact Us | NCPA Staffs"
+      description="NCPA Staffs are a small committee formed in 1981 dedicated to running at least 2 shows a year, the main one being the Staffordshire Country Festival held end June / early July."
+    />
   
     <div className="content-header calendar-results">
 

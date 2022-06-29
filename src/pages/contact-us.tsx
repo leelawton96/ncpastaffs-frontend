@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../components/SEO/seo"
 import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard"
 import ContactForm from "../components/ContactForm/contact-form.js"
 
@@ -10,6 +11,12 @@ import ContactForm from "../components/ContactForm/contact-form.js"
 const UsefulLinks = () => (
  
  <Layout>
+
+    <Seo 
+      url="https://www.ncpa-staffs.co.uk"
+      title="Contact Us | NCPA Staffs"
+      description="We are a small committee formed in 1981 dedicated to running at least 2 shows a year, the main one being the Staffordshire Country Festival held end June / early July."
+    />
   
   <div className="content-header useful-links">
 

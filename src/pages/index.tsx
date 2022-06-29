@@ -2,11 +2,18 @@ import * as React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import Seo from "../components/SEO/seo"
 
 
 
 const IndexPage = () => (
   <Layout>
+
+    <Seo 
+      url="https://www.ncpa-staffs.co.uk/"
+      title="Northern Counties Ponies Association | Staffordshire Branch"
+      description="NCPA Staffs are a small committee formed in 1981 dedicated to running at least 2 shows a year, the main one being the Staffordshire Country Festival held end June / early July."
+    />
    
   <div className="container-fluid homepage-hero text-light">
     <div className="homepage-hero-overlay">
