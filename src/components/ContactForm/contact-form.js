@@ -115,7 +115,7 @@ const ContactForm = () => {
     <div className='row formRow mb-4'>
       <div className='col'>
         <textarea
-          rows={3}
+          rows={5}
           name='message'
           {...register('message', {
             required: true

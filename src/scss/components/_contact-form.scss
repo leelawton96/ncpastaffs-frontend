@@ -32,6 +32,14 @@
  opacity: 1;
 }
 
+.formRow textarea {
+  height: 120px;
+  transition: 0.5s;
+}
+.formRow textarea:focus {
+  height: 180px;
+}
+
 .errorMessage {
  color: #f44336;
  font-size: 14px;

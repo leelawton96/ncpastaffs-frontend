@@ -27,7 +27,7 @@ const UsefulLinks = () => (
   </div>
 
   <div className="container-fluid py-5 contact-form">
-    <div className="container">
+    <div className="container px-5">
 
     <div className="px-4 pt-4">
       <h2 className="font-bold white mb-4">We'd love to hear from you!</h2>
