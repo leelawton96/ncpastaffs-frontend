@@ -1,7 +1,7 @@
 @import '../abstracts/variables';
 
 table {
- width: 100%;
+width: 100%;
 }
 
 th {
@@ -11,7 +11,8 @@ th {
 }
 
 th, td {
- padding: 20px 15px;
+ padding: 5px 5px;
+ font-size: 12px;
 }
 
 tr {
@@ -25,3 +26,47 @@ tr:nth-of-type(even) {
 tr:last-of-type {
  border-bottom: 2px solid $secondary;
 }
+
+
+// @media (min-width: 576px) { ... }
+
+
+// @media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { 
+
+ table {
+  width: 100%;
+ }
+ 
+ th {
+  background-color: $secondary;
+  color: #ffffff;
+  text-align: left;
+ }
+ 
+ th, td {
+  padding: 20px 15px;
+  font-size: 16px;
+ }
+ 
+ tr {
+  border-bottom: 1px solid #f6f6f6;
+ }
+ 
+ tr:nth-of-type(even) {
+  background-color: #fafafa;
+ }
+ 
+ tr:last-of-type {
+  border-bottom: 2px solid $secondary;
+ }
+
+ }
+
+
+// @media (min-width: 1200px) { ... }
+
+
+// @media (min-width: 1400px) { ... }

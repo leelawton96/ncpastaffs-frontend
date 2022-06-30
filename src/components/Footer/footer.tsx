@@ -7,7 +7,7 @@ const Footer = () => {
 
  return (
 
-  <div className="container-fluid footer-container flex-column text-center d-flex justify-content-center align-items-center my-auto">
+  <div className="container-fluid footer-container flex-column text-center d-flex justify-content-center align-items-center my-auto pt-4 pb-5">
    <div className="container d-flex flex-column justify-content-center align-items-center my-auto">
 
    <ul className="w-100 footer-links d-flex flex-column flex-sm-row justify-content-center px-0 pb-4 pt-4 pt-sm-0">

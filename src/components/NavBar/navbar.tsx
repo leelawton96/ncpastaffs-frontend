@@ -11,15 +11,18 @@ const NavBar = () => {
   <div className="container-fluid nav-container">
   <div className="container navbar">
 
-    <StaticImage 
-      src="../../images/ncpa-logo.webp"
-      className="logo"
-      alt="logo"
-      width={200}
-    />
+    <Link activeClassName="active" className="nav-link p-0" to="/">
+      <StaticImage 
+        src="../../images/ncpa-logo.webp"
+        className="logo"
+        alt="logo"
+        width={120}
+      />
+    </Link>
+
       <nav className="navbar navbar-expand-lg w-100">
         <div className="container-fluid">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">

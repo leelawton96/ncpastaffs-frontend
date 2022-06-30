@@ -28,6 +28,15 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/,
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
