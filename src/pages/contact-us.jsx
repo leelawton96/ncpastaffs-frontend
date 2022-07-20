@@ -1,14 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/Layout/layout"
-import { StaticImage } from "gatsby-plugin-image"
 import Seo from "../components/SEO/seo"
-import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard"
 import ContactForm from "../components/ContactForm/contact-form.js"
 
 
 
-const UsefulLinks = () => (
+const ContactUs = () => (
  
  <Layout>
 
@@ -46,4 +43,4 @@ const UsefulLinks = () => (
   </Layout>
 )
 
-export default UsefulLinks
+export default ContactUs

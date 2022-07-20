@@ -1,16 +1,14 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout/layout";
-import { StaticImage } from "gatsby-plugin-image";
-import UsefulLinkCard from "../components/UsefulLinkCard/UsefulLinkCard";
 import Seo from "../components/SEO/seo";
 import Directions from "../images/directions_catton_park.pdf";
-import StaffsFestival from "../images/Staffs-Festival-2022.pdf";
 import PreEntries from "../images/customer_class_report.pdf";
+import StaffsFestivalResults from "../images/Results_of_the_event_NCPA_Staffordshire_Festival_2022.pdf";
 
 
 
-const UsefulLinks = () => (
+const CalendarResults = () => (
  
  <Layout>
 
@@ -30,11 +28,11 @@ const UsefulLinks = () => (
 
     <div className="container py-5">
 
-      <p className="text-uppercase fs-5 text-muted">Directions: Please leave A38 at the turning for the national memorial arboretum.</p>
-      <p className="text-uppercase fs-5 text-muted">(Do not turn off to Walton on Trent) carry on along road under bridge (Height 13’ 9”) </p>
-      <p className="text-uppercase fs-5 text-muted">Then turn sharp left. Show is on this road. For large vehicles over 13’ 9” in height please see <a href={Directions}  target="_blank"> alternative directions on our website.</a></p>
+      <p className="text-uppercase fs-6 text-muted">Directions: Please leave A38 at the turning for the national memorial arboretum.</p>
+      <p className="text-uppercase fs-6 text-muted">(Do not turn off to Walton on Trent) carry on along road under bridge (Height 13’ 9”) </p>
+      <p className="text-uppercase fs-6 text-muted">Then turn sharp left. Show is on this road. For large vehicles over 13’ 9” in height please see <a href={Directions}  target="_blank" rel="noreferrer"> alternative directions on our website.</a></p>
 
-      <p className="font-bold fs-5 text-muted">
+      <p className="font-bold fs-6 text-muted">
         The Stable Co-ordinator <br/>
         Val Brown <br/>
         Tel: <a href="tel:07979 232266">07979 232266</a>
@@ -51,12 +49,15 @@ const UsefulLinks = () => (
         <tr>
           <td>Summer Show</td>
           <td>
-            <a href="http://entrymaster.net/index.php?id=1&alias=ncpa-staffs">Click for On-Line Entry</a>            
+            <a href="http://entrymaster.net/index.php?id=1&alias=ncpa-staffs" target="_blank" rel="noreferrer">Click for On-Line Entry</a>            
             <br/><br/>
-            <a href={PreEntries} target="_blank">View Pre-Entries</a></td>
+            <a href={PreEntries} target="_blank" rel="noreferrer">View Pre-Entries</a></td>
           <td>02-Jul-22 to 03-Jul-22</td>
           <td>Catton Park</td>
-          <td> <a href={StaffsFestival} target="_blank">Download Schedule & Results</a> </td>
+          <td> 
+            <a href={StaffsFestivalResults} target="_blank" rel="noreferrer">Download Results</a> <br/><br/>
+            <Link to="/gallery-staffs-festival/">View Gallery</Link>
+          </td>
         </tr>
       </table>
 
@@ -68,4 +69,4 @@ const UsefulLinks = () => (
 
 )
 
-export default UsefulLinks
+export default CalendarResults 
