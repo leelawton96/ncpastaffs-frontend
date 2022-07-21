@@ -3,14 +3,14 @@ body {
 }
 
 .homepage-hero {
- background-image: url('../images/image0-copy.webp');
+ background-image: url('../images/IMG_4563.webp');
  background-position: center center;
  background-size: cover;
  margin: 0;
  padding: 0;
 }
 .homepage-hero-overlay {
- background-image: linear-gradient(100deg, #000000 0%, #F2295B00 100%);
+ // background-image: linear-gradient(100deg, #000000 0%, #F2295B00 100%);
  padding: 80px 0px;
  margin: 0;
 }
@@ -48,7 +48,7 @@ body {
 
  .homepage-hero-overlay {
   padding: 200px 0px;
-  background-image: linear-gradient(100deg, #000000 0%, #F2295B00 64%);
+  background-image: linear-gradient(100deg, #00000092 0%, #f2295b00 50%);
  }
 
  }
